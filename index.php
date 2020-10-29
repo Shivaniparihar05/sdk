@@ -1,7 +1,7 @@
 <?php
  
 // This should be replaced with your actual Partner Secret, or if signing using a User Key, the secret for that key.
-$SIGNINGKEYSECRET = "signing_key_secret";
+$SIGNINGKEYSECRET = "adhjshdsdjcnnc";
  
  
 // PHP converts the header into all UPPERCASE, converts hyphens("-") into underscores("_") and prepends "HTTP_"
