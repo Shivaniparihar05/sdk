@@ -8,7 +8,7 @@ $SIGNINGKEYSECRET = "sxcbncnnxmmmmu";
 // or "HTTPS_" to the front, based on the protocol used.
 // Keep this in mind if converting this code to work in a language other than PHP. 
 // The actual header passed by Gigya is: "X-Gigya-Sig-Hmac-Sha1".
-$msgHash ="X-Gigya-Sig-Hmac-Sha1"; // How PHP sees the X-Gigya-Sig-Hmac-Sha1 header
+$msgHash =$_SERVER['HTTP_X_GIGYA_SIG_HMAC_SHA1']; // How PHP sees the X-Gigya-Sig-Hmac-Sha1 header
  
  
 // Get the JSON payload sent by Gigya.
