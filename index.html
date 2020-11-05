@@ -15,10 +15,10 @@ var myHeaders = new Headers();
 //myHeaders.delete('Origin');
 myHeaders.set("Access-Control-Allow-Origin", "http://127.0.0.1:5500/index.html");
 var myInit = {
-"Access-Control-Allow-Origin": "*",
+//"Access-Control-Allow-Origin": "*",
 method: 'GET',
 headers: myHeaders,
-mode: 'no-cors',
+//mode: 'no-cors',
 cache: 'default'
 };
 fetch('https://accounts.eu1.gigya.com/accounts.getJWTPublicKey?apiKey=3_yP-_OIoaaz980qRDgTH8l03umh6o99eiyeuCJUqe5toKARsI4HKSpoatpdjwisf_', myInit)
